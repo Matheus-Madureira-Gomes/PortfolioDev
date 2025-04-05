@@ -1,0 +1,399 @@
+:root {
+  --primary-color: #0A1128;
+  --white-color: #FFFFFF;
+  --secondary-color: crimson;
+  --gap: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+a {
+  color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 5.5rem;
+}
+
+h3 {
+  font-size: 5rem;
+}
+
+h4 {
+  font-size: 4.5rem;
+}
+
+h5 {
+  font-size: 4rem;
+}
+
+h6 {
+  font-size: 3.5rem;
+}
+a {
+  text-decoration: none;
+}
+.main-bg {
+  background-image: url('imgs/plano-de-fundo-texturizado-de-concreto-grunge-preto_53876-124541.avif');
+  background-position: cover;
+  color: var(--white-color);
+  height: 100vh;
+  border-top: 5px solid var(--primary-color);
+  border-bottom: 5px solid var(--primary-color);
+}
+.white-bg {
+  background: var(--white-color);
+}
+
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: var(--gap);
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.menu {
+  background: var(--white-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+  border-bottom: rgb(0, 0, 0) 0.1rem solid;
+}
+.menu h1 {
+  font-size: 2.3rem;
+}
+.menu h1 a {
+  color: var(--primary-color);
+}
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+.menu ul li a {
+  display: block;
+  padding: 2rem;
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  position: relative;
+}
+.menu ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 1rem;
+    left: 1.8rem;
+    height: 0.2rem;
+    width: 0;
+    background: red;
+    transition: all 300ms ease-in-out;
+}
+.menu ul li a:hover::after {
+  width: 50%;
+}
+.intro-content{
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 90px;
+  min-height: 100vh;
+}
+.intro-text-content, .intro-img{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.intro-img img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+  border: solid 3px #ffffff;
+}
+.intro-img img:hover {
+  transform: translate(-3%, 3%) scale(1.1) rotate(2deg);
+}
+.intro-text-content h2{
+  margin-bottom: 4rem;
+  font-size: 6rem;
+}
+.intro-text-content img {
+ width: 40px;
+ height: 40px;
+}
+.bt_page1 {
+  display: flex;
+  align-items: end;
+  margin-top: 60px;
+}
+
+.bt_page1 .button{
+  border: 0.5rem solid var(--white-color);
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  width: 300px;
+  height: 45px;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+}
+.bt_page1 .button:hover{
+  background: var(--white-color);
+  color: var(--primary-color);
+  transform: scale(1.15);
+}
+.img-port{
+  width: 360px;
+  height: 460px;
+  background-color: #0c0a0a;
+}
+.img-port:hover {
+  transform: scale(1.4);
+  transition: ease-in-out 6s;
+}
+.landing:hover, .spot:hover {
+  background-position: 100% 100%;
+
+}
+.githubArticle {
+  display: flex;
+  justify-content: space-around;
+  gap: 40rem;
+  margin-top: 20px;
+}
+.githubArticle div:hover{
+  transform: scale(1.1);
+  background-color: #0A1128;
+  border: 1px solid var(--white-color);
+}
+.img-port h3{
+  opacity: 0.4;
+  color: #881414;
+}
+.landing{
+  background-image: url('imgs/Design\ sem\ nome.png');
+  background-size: cover;
+  background-position: 100% 0%;
+  
+}
+.jsPage{
+  background-image: url('imgs/jsProject.png');
+  background-size: cover;
+  background-position: center;
+}
+.spot {
+  background-image: url('imgs/spot.png');
+  background-size: cover;
+  background-position: 0% 0%;
+}
+.page-two {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-height: 100vh;
+  max-width: 64rem;
+  text-align: center;
+}
+.page-two p, .page-two h1{
+  margin-bottom: 4rem;
+}
+.grid-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  flex-wrap: nowrap;  
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 9rem;
+  counter-reset: grid-counter;
+}
+.grid h3{
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+.grid-content h2{
+  margin-bottom: 2rem;
+}
+
+.grid h3::before {
+  counter-increment: grid-counter;
+  content: counter(grid-counter);
+  font-family: italic;
+  margin-right: 0.7rem;
+  font-size: 7rem;
+  border-radius: 1rem 0.5rem;
+  box-shadow: 0.5rem 0.2rem 1rem black;
+}
+
+.contact-bg{
+  background-image: url('imgs/plano-de-fundo-texturizado-de-concreto-grunge-preto_53876-124541.avif');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+.contact-form {
+  grid-column: span 2;
+}
+.contact-form .form-grid {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+.form-grid legend {
+  font-style: italic;
+  font-size: 1.6rem; 
+  margin-bottom: 3rem;
+}
+.form-group {
+  flex: 1 1 320px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 1rem;
+}
+.form-group input,
+.form-group textarea {
+  border: none;
+  background: var(--white-color);
+  padding: 1.5rem 2rem;
+  width: 100%;
+  font-size: 3rem;
+  outline: none;
+}
+body .full-width {
+  width: 100%;
+  flex: 1 1 100%;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  box-shadow: 0 0 10px 2px var(--secondary-color);
+}
+.form-group button {
+  border: 0.5rem solid var(--white-color);
+  background: none;
+  color: var(--white-color);
+  padding: 1.5rem 2rem;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.form-group button:hover {
+  background: var(--white-color);
+  color: var(--primary-color);
+}
+.form-group ::placeholder {
+  color: lightgray;
+}
+.close-menu{
+  display: none;
+}
+.back-to-top{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: darkgray;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+@media (max-width: 800px){
+  .intro-content, .grid{
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .intro-img{
+    width: 105%;
+  }
+  .menu-content, .menu-content ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-content{
+    height: 100vh;
+  }
+  .menu-content h1{
+    margin-bottom: 5rem;
+  }
+  .menu{
+    display: none;
+  }
+  .close-menu{
+    position: fixed;
+    z-index: 2;
+    top: 1rem;
+    right: 1rem;
+  }
+  .close-menu-label::after{
+    content: '≡';
+    position: fixed;
+    z-index: 2;
+    top: 2rem;
+    right: 2rem;
+    background: var(--primary-color);
+    color: #FFFFFF;
+    line-height: 3rem;
+    font-size: 3rem;
+    padding: 1rem;
+    border-radius: 4rem 4rem;
+    cursor: pointer;
+  }
+  .close-menu:checked~.menu{
+    display: block;
+  }
+}

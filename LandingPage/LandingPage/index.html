@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="Close menu"></label>
+  <aside class="menu">
+    <div class="main-content menu-content">
+    <h1><a onclick="getElementById('close-menu').checked = false" href="#section1">Início</a></h1>
+    <nav>
+      <ul onclick="getElementById('close-menu').checked = false">
+        <li><a href="#section2">Sobre mim</a></li>
+        <li><a href="#section3">Portfólios</a></li> 
+        <li><a href="#section4">Habilidades</a></li>
+        <li><a href="#section5">Contato</a></li>
+      </ul>
+    </nav>  
+  </div>
+  </aside>
+
+  <section class="main-bg section" id="section1">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+      <h2>Olá, sou o Matheus Madureira Gomes</h2>
+      <p>Sou desenvolvedor full stack iniciante</p>
+      <div class="bt_page1">
+        <a href="/LandingPage/pdf/Currículo.pdf" download="Currículo.pdf" type="application/pdf"><div class="button">Dowload Currículo</div></a>
+        <a href="https://wa.me/11981405692"><div class="button">Entre em contato</div></a>
+      </div>
+      </div>
+      <div class="intro-img">
+        <img src="imgs/Imagem do WhatsApp de 2025-03-28 à(s) 12.09.35_90c23139.jpg" alt="O desenho de um homem segurando em suas mãos a logo do Css, o desenho de uma mulher agachada empurrando a logo de javascript e outro homem segurando a logo do Html">
+      </div>
+    </div>
+    
+  </section>
+
+  <section id='section2' class="white-bg section">
+    <div class="main-content page-two">
+      <h1>Sobre mim</h1>
+      <p>
+    Sou estudante de programação iniciante por paixão. Iniciei minha jornada de aprendizado esse ano após descobrir esse mundo totalmente novo e acabei por adquirir muita vontade de aprender. Estou cursando faculdade de análise e desenvolvimento de sistemas paralelamente a cursos online da Udemy de Html e css, JavaScript, React, TypeScript e Sql para conseguir uma base boa que é de suma importância no começo da carreira. Aprendi um pouco de linguagem C na faculdade e comecei a estudar Python, Git e Github.
+      </p>
+    </div>
+  </section>
+
+  <section id="section3" class="main-bg section">
+    <div class="main-content grid-content">
+      <h2>Meus projetos</h2>
+      <a href="https://relaxed-dodol-dad0c9.netlify.app/" target="_blank">
+      <div class="grid">
+        <div class="img-port jsPage">
+          <h3>Calculadora Imc</h3>
+        
+        </div>
+      </a>
+      <a href="https://chipper-snickerdoodle-f096fe.netlify.app/" target="_blank">
+        <div class="img-port landing">
+          <h3>Landing Page</h3>
+        </div>
+      </a>
+        <a href="https://clinquant-belekoy-a1dc9d.netlify.app/" target="_blank">
+        <div class="img-port spot">
+          <h3>Spotify</h3>
+          
+        </div>
+      </a>
+      </div>
+      <div class="githubArticle">
+        <div><a href="https://github.com/Matheus-Madureira-Gomes/Calculadora_imc" target="_blank">GitHub</a></div>
+        <div><a href="https://github.com/Matheus-Madureira-Gomes/LandingPage" target="_blank">GitHub</a></div>
+        <div><a href="https://github.com/Matheus-Madureira-Gomes/Spotify" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section4" class="white-bg section">
+    <div class="main-content grid-content">
+      <h2>Habilidades</h2>
+      <p>Aqui são algumas linguagens que conheço</p>
+      
+      <div class="grid">
+        <div class="grid-two-img">
+          <img src="imgs/html.png" alt="">
+        </div>
+        <div class="grid-two-img">
+          <img src="imgs/css.png" alt="">
+        </div>
+        <div class="grid-two-img">
+          <img src="imgs/js.png" alt="">
+        </div>
+        <div class="grid-two-img">
+          <img src="imgs/python.png" alt="">
+        </div>
+        <div class="grid-two-img">
+          <img src="imgs/git.png" alt="">
+        </div>
+        <div class="grid-two-img">
+          <img src="imgs/TajMahal.webp" alt="">
+        </div>
+      </div>
+   </div>
+  </section>
+
+  <section id="section5" class="section contact-bg">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Minhas redes</h2>
+        <a href="https://www.linkedin.com/in/matheus-madureira-54a8aa303/" target="_blank"><img src="/LandingPage/imgs/linkedin.png" alt=""></a>
+        <a href="https://github.com/Matheus-Madureira-Gomes" target="_blank"><img src="/LandingPage/imgs/github.png" alt=""></a>
+      </div>
+      <div class="intro-img">
+        <img src="imgs/javascript.svg" alt="O desenho de um homem segurando em suas mãos a logo do Css, o desenho de uma mulher agachada empurrando a logo de javascript e outro homem segurando a logo do Html">
+      </div>
+    
+
+      <div class="contact-form">
+        <form action="https://formsubmit.co/matheus.madsep@gmail.com" method="post" target="_blank">
+          <fieldset class="form-grid">
+          <legend>Contact me</legend>
+
+          <div class="form-group">
+            <label for="first-name">First name</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Your name">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Last name</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Your e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Send message</button>
+          </div>
+          </fieldset>
+        </form>
+      </div>
+   
+   </div>
+  </section>
+
+    <a class="back-to-top" href="#section1">↑</a>
+</body>
+
+</html>
