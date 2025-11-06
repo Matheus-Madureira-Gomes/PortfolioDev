@@ -1,4 +1,16 @@
-# PortfolioDev
-Este portfólio trata-se de uma página web desenvolvida em Html, Css e JavaScript contendo minhas informações técnicas, meus projetos, plano de carreira, além de contar com meu contato.
-Caso queira vê-lo melhor segue o link abaixo:
-https://stunning-paprenjak-bea4a9.netlify.app/
+# 🌐 Portfólio Dev - Matheus Madureira Gomes
+
+Bem-vindo ao meu portfólio de desenvolvedor! 🚀  
+Este projeto foi criado para apresentar minhas habilidades, projetos e trajetória no mundo da programação, com foco em **análise de dados e engenharia de dados**.
+
+🔗 **Acesse o portfólio online:**  
+👉 [https://stunning-paprenjak-bea4a9.netlify.app/](https://stunning-paprenjak-bea4a9.netlify.app/)
+
+---
+
+## 💻 Tecnologias Utilizadas
+
+- **HTML5**  
+- **CSS3** (com responsividade e animações)  
+- **JavaScript (ES6+)**  
+- **Netlify** (hospedagem e deploy contínuo)
