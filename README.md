@@ -1,7 +1,7 @@
 # 🌐 Portfólio Dev - Matheus Madureira Gomes
 
 Bem-vindo ao meu portfólio de desenvolvedor! 🚀  
-Este projeto foi criado para apresentar minhas habilidades, projetos e trajetória no mundo da programação, com foco em **análise de dados e engenharia de dados**.
+Este projeto foi criado para apresentar minhas habilidades, projetos e trajetória no mundo da programação, com foco em **engenharia de software**.
 
 🔗 **Acesse o portfólio online:**  
 👉 [https://stunning-paprenjak-bea4a9.netlify.app/](https://stunning-paprenjak-bea4a9.netlify.app/)
